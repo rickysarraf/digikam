@@ -3,7 +3,7 @@ usr/share/icons/hicolor/*/actions/
 usr/share/icons/hicolor/*/apps/kipi*
 #usr/share/icons/hicolor/*/apps/dng*
 usr/share/icons/hicolor/*/apps/photo*
-usr/share/kde4/apps/gpssync/
+#usr/share/kde4/apps/gpssync/
 usr/share/kde4/apps/kipi/kipiplugin*.rc
 usr/share/kde4/apps/kipi/tips
 usr/share/kde4/apps/kipiplugin_*
