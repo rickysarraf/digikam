@@ -27,17 +27,17 @@ override_dh_auto_configure:
 override_dh_auto_install:
 	dh_auto_install
 	# remove development stuff: headers, cmake config files, pkg-config files, .so symlinks, static libs
-	rm -r --verbose debian/tmp/usr/include
-	rm -r --verbose debian/tmp/usr/share/kde4/apps/cmake
-	rm -r --verbose debian/tmp/usr/lib/cmake
-	rm -r --verbose debian/tmp/usr/lib/pkgconfig
+	# rm -r --verbose debian/tmp/usr/include
+	#rm -r --verbose debian/tmp/usr/share/kde4/apps/cmake
+	#rm -r --verbose debian/tmp/usr/lib/cmake
+	#rm -r --verbose debian/tmp/usr/lib/pkgconfig
 	find debian/tmp/usr/lib -type l -name '*.so' -exec rm --verbose {} \;
 	# remove potentially conflicting oxygen icons in global icon theme
 	rm -r --verbose debian/tmp/usr/share/icons/oxygen
 	# remove libkipi translations, provided by kde-l10n-*
 	rm -r --verbose debian/tmp/usr/share/locale/*/LC_MESSAGES/libkipi.mo
 	# remove haar cascades, the versions in opencv-data will be used instead
-	rm -r --verbose debian/tmp/usr/share/kde4/apps/libkface/haarcascades
+	#rm -r --verbose debian/tmp/usr/share/kde4/apps/libkface/haarcascades
 
 override_dh_installchangelogs:
 	dh_installchangelogs -pdigikam core/ChangeLog
