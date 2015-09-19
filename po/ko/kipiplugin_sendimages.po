@@ -1,0 +1,365 @@
+# Translation of kipiplugin_sendimages to Korean.
+# Copyright (C) 2007 This_file_is_part_of_KDE
+# This file is distributed under the same license as the extragear-base package.
+# Shinjo Park <kde@peremen.name>, 2007, 2014, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extragear-libs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2015-06-19 02:01+0000\n"
+"PO-Revision-Date: 2015-07-27 15:56+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde@peremen.name>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Shinjo Park"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: imageresize.cpp:109
+msgid "Error opening input file"
+msgstr "입력 파일을 여는 중 오류 발생"
+
+#: imageresize.cpp:120
+msgid "Error opening temporary folder"
+msgstr "임시 폴더를 여는 중 오류 발생"
+
+#: imageresize.cpp:164
+msgid "Cannot resize image. Aborting."
+msgstr "그림 크기를 조절할 수 없습니다. 중단합니다."
+
+#: imageresize.cpp:182
+msgid "Cannot save resized image (JPEG). Aborting."
+msgstr "크기 조정된 그림(JPEG)을 저장할 수 없습니다. 중단합니다."
+
+#: imageresize.cpp:198
+msgid "Cannot save resized image (PNG). Aborting."
+msgstr "크기 조정된 그림(PNG)을 저장할 수 없습니다. 중단합니다."
+
+#. i18n: ectx: Menu (Export)
+#: kipiplugin_sendimagesui.rc:7
+msgid "&Export"
+msgstr "내보내기(&E)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kipiplugin_sendimagesui.rc:13
+msgid "Main Toolbar"
+msgstr "주 도구 모음"
+
+#: plugin_sendimages.cpp:112
+msgid "Email Images..."
+msgstr "이메일로 그림 보내기..."
+
+#: sendimages.cpp:143
+msgid "Email images"
+msgstr "이메일로 그림 보내기"
+
+#: sendimages.cpp:186
+msgid "Operation canceled by user"
+msgstr "사용자가 작업을 취소함"
+
+#: sendimages.cpp:200
+#, kde-format
+msgid "Resizing %1"
+msgstr "%1 크기 조정 중"
+
+#: sendimages.cpp:213
+#, kde-format
+msgid "%1 resized successfully"
+msgstr "%1 크기 조정 완료"
+
+#: sendimages.cpp:222
+#, kde-format
+msgid "Failed to resize %1: %2"
+msgstr "%1의 크기를 조정하는 데 실패함: %2"
+
+#: sendimages.cpp:250
+msgid "There are no files to send"
+msgstr "보낼 파일이 없습니다"
+
+#: sendimages.cpp:268
+msgid "Build images properties file"
+msgstr "그림 속성 파일 만들기"
+
+#: sendimages.cpp:281
+msgid "no caption"
+msgstr "캡션 없음"
+
+#: sendimages.cpp:284
+msgid "no keywords"
+msgstr "키워드 없음"
+
+#: sendimages.cpp:286
+#, kde-format
+msgid ""
+"file \"%1\":\n"
+"Original images: %2\n"
+msgstr ""
+"파일 \"%1\":\n"
+"원본 그림: %2\n"
+
+#: sendimages.cpp:289
+#, kde-format
+msgid "Comments: %1\n"
+msgstr "설명: %1\n"
+
+#: sendimages.cpp:292
+#, kde-format
+msgid "Tags: %1\n"
+msgstr "태그: %1\n"
+
+#: sendimages.cpp:295
+#, kde-format
+msgid "Rating: %1\n"
+msgstr "별점: %1\n"
+
+#: sendimages.cpp:300
+msgid "properties.txt"
+msgstr "properties.txt"
+
+#: sendimages.cpp:309
+msgid "Image properties file done"
+msgstr "그림 속성 파일 완료됨"
+
+#: sendimages.cpp:326
+msgid ""
+"The images listed below cannot be resized.\n"
+"Do you want them to be added as attachments (without resizing)?"
+msgstr ""
+"아래에 있는 그림의 크기를 조정할 수 없습니다.\n"
+"크기 조정 없이 첨부 파일로 추가하시겠습니까?"
+
+#: sendimages.cpp:330
+msgid "Failed to resize images"
+msgstr "그림 크기 조정하는 데 실패함"
+
+#: sendimages.cpp:389
+#, kde-format
+msgid ""
+"The file \"%1\" is too big to be sent, please reduce its size or change your "
+"settings"
+msgstr ""
+"파일 \"%1\"을(를) 보내기에 너무 큽니다. 크기를 조정하거나 설정을 변경하십시오"
+
+#: sendimages.cpp:437
+msgid "Starting default KDE email program..."
+msgstr "기본 KDE 이메일 프로그램 시작하는 중..."
+
+#: sendimages.cpp:659
+#, kde-format
+msgid "Failed to start \"%1\" program. Check your system."
+msgstr "프로그램 \"%1\"을(를) 시작할 수 없습니다. 시스템을 확인하십시오."
+
+#: sendimages.cpp:672
+#, kde-format
+msgid "Starting \"%1\" program..."
+msgstr "프로그램 \"%1\" 시작하는 중..."
+
+#: sendimages.cpp:682
+msgid "After having sent your images by email..."
+msgstr "그림을 이메일로 보낸 후..."
+
+#: sendimages.cpp:683
+msgid "Press 'Close' button to clean up temporary files"
+msgstr "임시 파일을 삭제하기 위해서 닫기 단추를 누르십시오"
+
+#: sendimagesdialog.cpp:85
+msgid "Email Images Options"
+msgstr "그림 보내기 옵션"
+
+#: sendimagesdialog.cpp:90
+msgctxt "@action:button"
+msgid "&Send"
+msgstr "보내기(&S)"
+
+#: sendimagesdialog.cpp:110
+msgid "Send Images"
+msgstr "그림 보내기"
+
+#: sendimagesdialog.cpp:113
+msgid "A plugin to e-mail items"
+msgstr "그림을 이메일로 보내는 플러그인"
+
+#: sendimagesdialog.cpp:114
+msgid "(c) 2003-2013, Gilles Caulier"
+msgstr "(c) 2003-2013, Gilles Caulier"
+
+#: sendimagesdialog.cpp:116
+msgid "Gilles Caulier"
+msgstr "Gilles Caulier"
+
+#: sendimagesdialog.cpp:116
+msgid "Author and Maintainer"
+msgstr "작성자와 관리자"
+
+#: sendimagesdialog.cpp:119
+msgid "Michael Hoechstetter"
+msgstr "Michael Hoechstetter"
+
+#: sendimagesdialog.cpp:119 sendimagesdialog.cpp:122
+msgid "Developer"
+msgstr "개발자"
+
+#: sendimagesdialog.cpp:122
+msgid "Tom Albers"
+msgstr "Tom Albers"
+
+#: settingswidget.cpp:90
+msgid "Mail program:"
+msgstr "이메일 프로그램:"
+
+#: settingswidget.cpp:93
+msgctxt "default mail agent"
+msgid "Default"
+msgstr "기본값"
+
+#: settingswidget.cpp:104
+msgid ""
+"Select your preferred external email program here. <b>Default</b> is the "
+"current email program set in KDE System Settings."
+msgstr ""
+"선호하는 외부 이메일 프로그램을 선택하십시오. <b>기본값</b>은 KDE 시스템 설정"
+"에서 설정한 이메일 프로그램입니다."
+
+#: settingswidget.cpp:110
+#, kde-format
+msgid "Attach a file with image properties from %1"
+msgstr "%1에 있는 그림 속성을 사용하여 파일 첨부하기"
+
+#: settingswidget.cpp:113
+#, kde-format
+msgid ""
+"If you enable this option, all image properties set by %1 as Comments, "
+"Rating, or Tags, will be added as an attached file."
+msgstr ""
+"이 옵션을 사용하면 %1에서 설정한 설명, 태그, 별점과 같은 모든 그림 속성이 첨"
+"부 파일로 추가됩니다.."
+
+#: settingswidget.cpp:122
+msgid " MB"
+msgstr " MB"
+
+#: settingswidget.cpp:124
+msgid "Maximum email size limit:"
+msgstr "최대 이메일 크기 제한:"
+
+#: settingswidget.cpp:129
+msgid "Adjust image properties"
+msgstr "그림 속성 조정"
+
+#: settingswidget.cpp:131
+msgid ""
+"If you enable this option, all images to be sent can be resized and "
+"recompressed."
+msgstr "이 옵션을 사용하면 모든 그림을 보내기 전에 크기를 조정하고 압축합니다."
+
+#: settingswidget.cpp:134
+msgid "Image Properties"
+msgstr "그림 속성"
+
+#: settingswidget.cpp:138 settingswidget.cpp:156
+msgid "Very Small (320 pixels)"
+msgstr "가장 작게 (320 픽셀)"
+
+#: settingswidget.cpp:139 settingswidget.cpp:157
+msgid "Small (640 pixels)"
+msgstr "작게 (640 픽셀)"
+
+#: settingswidget.cpp:140 settingswidget.cpp:158
+msgid "Medium (800 pixels)"
+msgstr "중간 (800 픽셀)"
+
+#: settingswidget.cpp:141 settingswidget.cpp:159
+msgid "Big (1024 pixels)"
+msgstr "크게 (1024 픽셀)"
+
+#: settingswidget.cpp:142 settingswidget.cpp:160
+msgid "Very Big (1280 pixels)"
+msgstr "아주 크게 (1280 픽셀)"
+
+#: settingswidget.cpp:143
+msgid "Large - for printing (1600 pixels)"
+msgstr "매우 크게 - 인쇄용 (1600 픽셀)"
+
+#: settingswidget.cpp:145
+#, kde-format
+msgid ""
+"<p>Select the size of the images that are to be sent:</p><p><b>%1</b>: use "
+"this if you have a very slow Internet connection or the target mailbox size "
+"is very limited.</p><p><b>%2</b>: use this if you have a slow Internet "
+"connection and the target mailbox size is limited.</p><p><b>%3</b>: this is "
+"the default value for medium Internet connection speed and target mailbox "
+"size.</p><p><b>%4</b>: use this if you have a high-speed Internet connection "
+"and the target mailbox size is not limited.</p><p><b>%5</b>: use this if you "
+"have no size or speed restrictions.</p><p><b>%6</b>: use this only for "
+"printing purposes.</p>"
+msgstr ""
+"<p>보낼 그림 크기를 선택하십시오:</p><p><b>%1</b>: 인터넷 연결이 매우 느리거"
+"나 대상 메일 서비스 공간이 매우 작을 때 선택하십시오.</p><p><b>%2</b>: 인터"
+"넷 연결이 느리거나 대상 메일 서비스 공간이 작을 때 선택하십시오.</p><p><b>"
+"%3</b>: 중간 인터넷 연결 속도 및 대상 메일 서비스 공간 기본값입니다.</"
+"p><p><b>%4</b>: 인터넷 연결 속도가 충분하고 대상 메일 서비스 공간 제한이 없"
+"을 때 사용하십시오.</p><p><b>%5</b>: 속도나 공간 제한이 없을 때 사용하십시오."
+"</p><p><b>%6</b>: 인쇄 목적으로 사용하십시오.</p>"
+
+#: settingswidget.cpp:161
+msgid "Huge - for printing (1600 pixels)"
+msgstr "매우 크게 - 인쇄용 (1600 픽셀)"
+
+#: settingswidget.cpp:164
+msgid "Image size:"
+msgstr "그림 크기:"
+
+#: settingswidget.cpp:173
+msgid "<p>Select the file format of the image files to be sent.</p>"
+msgstr "<p>보낼 그림의 형식을 선택하십시오.</p>"
+
+#: settingswidget.cpp:174
+msgid ""
+"<p><b>JPEG</b>: The Joint Photographic Experts Group file format is a good "
+"web file format but it uses lossy compression.</p><p><b>PNG</b>: the "
+"Portable Network Graphics format is an extensible file format for the "
+"lossless, portable, well-compressed storage of raster images. PNG provides a "
+"patent-free replacement for GIF and can also replace many common uses of "
+"TIFF. PNG is designed to work well in online viewing applications, such as "
+"the World Wide Web, so it is fully streamable with a progressive display "
+"option. Also, PNG can store gamma and chromaticity data for improved color-"
+"matching on heterogeneous platforms.</p>"
+msgstr ""
+"<p><b>JPEG</b>: 파일 크기는 작지만 손실 압축을 수행합니다.</p> <p><b>PNG</"
+"b>: 무손실, 이식 가능, 압축된 래스터 그림을 저장하는 형식입니다. PNG는 특허"
+"로 제약받지 않는 GIF의 대안이며 TIFF 사용 상황을 대체할 수 있습니다. PNG는 웹"
+"과 같은 온라인 환경에 최적화되어 설계되었으며, 순차 표시 옵션을 사용하여 스트"
+"리밍 가능합니다. PNG는 다중 플랫폼에서 색을 일치시키기 위하여 감마와 크로마 "
+"데이터를 저장할 수 있습니다.</p>"
+
+#: settingswidget.cpp:184
+msgid "Image format:"
+msgstr "그림 형식:"
+
+#: settingswidget.cpp:192
+msgid "<p>The new compression value of JPEG images to be sent:</p>"
+msgstr "<p>보낼 JPEG 그림의 새 압축률 설정:</p>"
+
+#: settingswidget.cpp:193
+msgid ""
+"<p><b>1</b>: very high compression<br/><b>25</b>: high compression<br/"
+"><b>50</b>: medium compression<br/><b>75</b>: low compression (default value)"
+"<br/><b>100</b>: no compression</p>"
+msgstr ""
+"<p><b>1</b>: 매우 높은 압축<br/><b>25</b>: 높은 압축<br/><b>50</b>: 중간 압축"
+"<br/><b>75</b>: 낮은 압축(기본값)<br/><b>100</b>: 압축하지 않음</p>"
+
+#: settingswidget.cpp:201
+msgid "Image quality:"
+msgstr "그림 품질:"

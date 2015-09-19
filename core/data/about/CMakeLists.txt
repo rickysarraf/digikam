@@ -1,0 +1,11 @@
+#
+# Copyright (c) 2010-2014, Gilles Caulier, <caulier dot gilles at gmail dot com>
+#
+# Redistribution and use is allowed according to the terms of the BSD license.
+# For details see the accompanying COPYING-CMAKE-SCRIPTS file.
+
+install(FILES main.html
+              top-left-digikam.png
+              digikam.css
+
+        DESTINATION ${DATA_INSTALL_DIR}/digikam/about )

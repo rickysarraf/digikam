@@ -1,0 +1,17 @@
+<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
+<!-- NOTE: don't forget to increase version ID when this file is modified -->
+<gui version="1" name="kipiplugin_flashexport" >
+
+    <MenuBar>
+
+        <Menu name="Export"><text>&amp;Export</text>
+            <Action name="flashexport" group="kipi_export_group" />
+        </Menu>
+
+    </MenuBar>
+
+    <ToolBar name="mainToolBar"><text>Main Toolbar</text>
+    </ToolBar>
+
+</gui>
+
