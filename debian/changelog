@@ -1,4 +1,18 @@
-digikam (4:4.12.0-1~) UNRELEASED; urgency=medium
+digikam (4:4.13.0-2) UNRELEASED; urgency=medium
+
+  * [66dca62] Add libsoprano-dev to build dependencies
+  * [489b6e9] Drop some of the removals from debian/rules
+  * [781707c] Update .install files
+  * [2154e11] Add libkface-dev to build depends
+  * [66dca62] Add libsoprano-dev to build dependencies
+  * [489b6e9] Drop some of the removals from debian/rules
+  * [781707c] Update .install files
+  * [2154e11] Add libkface-dev to build depends
+  * [13d75cf] Disable Baloo because I'll be using it under KDE. Same reason to use private libraries
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Sun, 11 Oct 2015 22:50:59 +0530
+
+digikam (4:4.13.0-1) experimental; urgency=medium
 
   [ Mark Purcell ]
   * New upstream release
@@ -8,7 +22,11 @@ digikam (4:4.12.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (4.12.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Aug 2015 15:48:48 +0200
+  [ Ritesh Raj Sarraf ]
+  * Use libkface-dev from experimental 
+  * New upstream release (4.13.0).
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Sun, 11 Oct 2015 17:36:19 +0530
 
 digikam (4:4.4.0-1.1) unstable; urgency=medium
 
