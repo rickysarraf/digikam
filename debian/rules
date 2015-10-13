@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-USE_PRIVATE_KDEGRAPHICS := n
+USE_PRIVATE_KDEGRAPHICS := y
 PRIVATE_LIBDIR := /usr/lib/digikam
 export DEB_LDFLAGS_MAINT_APPEND := -Wl,--as-needed
 
@@ -22,6 +22,7 @@ override_dh_auto_configure:
 	  -DDIGIKAMSC_COMPILE_PO=on \
 	  -DENABLE_LCMS2=ON \
 	  -DKDE4_BUILD_TESTS=OFF \
+	  -DENABLE_BALOOSUPPORT=OFF \
 	  $(EXTRA_CMAKE_ARGS)
 
 override_dh_auto_install:
