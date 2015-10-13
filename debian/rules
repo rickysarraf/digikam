@@ -23,6 +23,7 @@ override_dh_auto_configure:
 	  -DENABLE_LCMS2=ON \
 	  -DKDE4_BUILD_TESTS=OFF \
 	  -DENABLE_BALOOSUPPORT=OFF \
+	  -DENABLE_KDEPIMLIBSSUPPORT=OFF \
 	  $(EXTRA_CMAKE_ARGS)
 
 override_dh_auto_install:
