@@ -1,4 +1,4 @@
-digikam (4:4.13.0-2) UNRELEASED; urgency=medium
+digikam (4:4.13.0-2) experimental; urgency=medium
 
   * [66dca62] Add libsoprano-dev to build dependencies
   * [489b6e9] Drop some of the removals from debian/rules
