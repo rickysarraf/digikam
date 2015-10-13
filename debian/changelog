@@ -1,3 +1,10 @@
+digikam (4:4.13.0-3) experimental; urgency=medium
+
+  * [7902d56] More pain than pleasure
+  * [12f502a] Let's be explicit about enabled features
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Tue, 13 Oct 2015 14:56:25 +0530
+
 digikam (4:4.13.0-2) experimental; urgency=medium
 
   * [66dca62] Add libsoprano-dev to build dependencies
