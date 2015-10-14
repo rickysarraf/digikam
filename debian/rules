@@ -41,7 +41,7 @@ override_dh_auto_install:
 	# remove potentially conflicting oxygen icons in global icon theme
 	rm -r --verbose debian/tmp/usr/share/icons/oxygen
 	# remove libkipi translations, provided by kde-l10n-*
-	rm -r --verbose debian/tmp/usr/share/locale/*/LC_MESSAGES/libkipi.mo
+	# rm -r --verbose debian/tmp/usr/share/locale/*/LC_MESSAGES/libkipi.mo
 	# remove haar cascades, the versions in opencv-data will be used instead
 	#rm -r --verbose debian/tmp/usr/share/kde4/apps/libkface/haarcascades
 
