@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.9), pkg-config, cmake (>= 2
 # libkipi-dev (>= 4:4.12), libkexiv2-dev (>= 4:4.12), libkdcraw-dev (>= 4:4.12), libksane-dev, libkface-dev,
 # baloo-dev, libkfilemetadata-dev,
 # libkipi-dev (>= 4:4.12), libkexiv2-dev (>= 4:4.12),
- libkfilemetadata-dev, libexiv2-dev, libraw-dev,
+ libkfilemetadata-dev, libexiv2-dev, libraw-dev, libhupnp-dev,
  libqt4-dev, libqt4-opengl-dev, libgl1-mesa-dev, libglu1-mesa-dev,
  libqtwebkit-dev, libqtgstreamer-dev,
  libmagickcore-dev, imagemagick,
