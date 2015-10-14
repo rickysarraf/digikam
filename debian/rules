@@ -36,7 +36,6 @@ override_dh_auto_install:
 	# rm -r --verbose debian/tmp/usr/include
 	#rm -r --verbose debian/tmp/usr/share/kde4/apps/cmake
 	#rm -rf --verbose debian/tmp/usr/lib/cmake
-	rm -rf --verbose usr/lib/cmake
 	#rm -r --verbose debian/tmp/usr/lib/pkgconfig
 	#find debian/tmp/usr/lib -type l -name '*.so' -exec rm --verbose {} \;
 	# remove potentially conflicting oxygen icons in global icon theme
